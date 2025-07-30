@@ -8,7 +8,7 @@ using the urllib library
 from urllib import request, error
 
 try:
-    url = 'https://intranet.hbtn.io/status'
+    url = 'https://alu-intranet.hbtn.io/status'
     with request.urlopen(url) as response:
         response_body = response.read()
         response_text = response_body.decode('utf-8')
